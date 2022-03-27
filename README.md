@@ -18,9 +18,43 @@ Las funcionalidades a ser automatizadas serán seleccionadas utilizando los crit
 -	Se realizarán las pruebas en computadoras con sistema operativo Windows 10
 -	Se probará la visualización del sitio web en un equipo móvil con sistema operativo Android 12
 
+## **HU001 – Registro en la web**
+ Yo como usuario del sitio web
+ Quiero poder registrarme en la pagina
+ Para poder comprar los diferentesproductos
+ 
+ ### Criterios De Aceptación
+ - Verificar que el boton de registro se encuente visible en la web
+ - Verficar que al presionar el boton de registro se despliegue el formulario para registrarse
+ - Verificar que el boton "create an acount" se encuentre visible
+
+## Fuera de Alcance
+- Verificar opciones diferentes a las de registro
+- Realizar pruebas en navegadore diferentes a Google Chrome y Mozilla Firefox
+- No se verificará la visualización de los elementos en diseño responsive.
+- No se validarán en un sistema operativo diferente a Windows
+
+
 ## Roles Y Responsabilidades
 | Roles  | Responsabilidades |
 |----------|:-------------:|
 | Manager QA | Planificación y monitoreo de las pruebas automatizadas Reporte de Defectos Reporte de progreso de las pruebas||----------|:-------------:|  
 |Ingeniero QA de Automatización/ Analista QA|Diseño e implementación de las pruebas. /Ejecución de las pruebas automatizadas. /Reporte de resultados de las pruebas|        |----------|:-------------:|  
 |Product Owner/Stakeholders|Toma de decisiones|
+
+## Estrategias de Pruebas
+### Todas las ejecuciones de pruebas serán de tipo Manual.
+
+Se iniciará realizando un Smoke Test para determinar que el portal cargue correctamente, también que todos los campos están disponibles para ingresar información y que los botones se encuentren presentes, Para los módulos que se mencionan en el alcance se realizaran pruebas funcionales a nivel de sistema.
+
+## Herramientas de Pruebas
+| Herramienta  | Función |
+|----------|:-------------:|
+|Serenity BDD|es una herramienta que nos facilita hacer BDD centralizando los test de nuestra aplicación|
+|Gradle|Creación de la estructura de proyectos y uso e importación de librerías|
+|Chromedriver|Crea una instancia del navegador Chrome|
+
+## Requerimientos
+- Se debe contar con un ambiente de pruebas en el que se encuentre la versión más reciente de la aplicación
+- Contar con la ultima version de la web desplegada
+
