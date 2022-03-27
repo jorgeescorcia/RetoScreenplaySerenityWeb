@@ -21,7 +21,6 @@ Las funcionalidades a ser automatizadas serán seleccionadas utilizando los crit
 ## Roles Y Responsabilidades
 | Roles  | Responsabilidades |
 |----------|:-------------:|
-| Manager QA | Planificación y monitoreo de las pruebas automatizadas Reporte de Defectos Reporte de progreso de las pruebas|
-|----------|:-------------:|  
+| Manager QA | Planificación y monitoreo de las pruebas automatizadas Reporte de Defectos Reporte de progreso de las pruebas||----------|:-------------:|  
 |Ingeniero QA de Automatización/ Analista QA|Diseño e implementación de las pruebas.Ejecución de las pruebas automatizadas.Reporte de resultados de las pruebas|            |----------|:-------------:|  
 |Product Owner/Stakeholders|Toma de decisiones|
