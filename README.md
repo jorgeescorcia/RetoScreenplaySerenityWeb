@@ -54,6 +54,7 @@ Se iniciará realizando un Smoke Test para determinar que el portal cargue corre
 |Gradle|Creación de la estructura de proyectos y uso e importación de librerías|
 |Chromedriver|Crea una instancia del navegador Chrome|
 
+
 ## Requerimientos
 - Se debe contar con un ambiente de pruebas en el que se encuentre la versión más reciente de la aplicación
 - Contar con la ultima version de la web desplegada
