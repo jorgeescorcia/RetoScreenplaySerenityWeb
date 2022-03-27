@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="funcionalidad Login en http://automationpractice.com/" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-03-27T05:31:17" hostname="DESKTOP-2BU34TH" time="84.044">
+  <properties/>
+  <testcase name="inicio de sesion exitoso" classname="funcionalidad Login en http://automationpractice.com/" time="50.22"/>
+  <testcase name="inicio de sesion fallido" classname="funcionalidad Login en http://automationpractice.com/" time="33.823"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[mar 27, 2022 12:31:18 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 99.0.4844.35 (f60a827ddb87f1c403e07713751a5551d5856ac0-refs/branch-heads/4844@{#579}) on port 31512
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+mar 27, 2022 12:31:28 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+mar 27, 2022 12:32:07 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 99.0.4844.35 (f60a827ddb87f1c403e07713751a5551d5856ac0-refs/branch-heads/4844@{#579}) on port 19500
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+mar 27, 2022 12:32:12 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+]]></system-err>
+</testsuite>

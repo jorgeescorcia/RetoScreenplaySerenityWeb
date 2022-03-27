@@ -4,15 +4,15 @@ import com.github.javafaker.Faker;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import task.landingpage.RegisterFailed;
+import task.landingpage.register.RegisterFailed;
 import util.register.ResumenRegister;
 
 import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
 import static net.serenitybdd.screenplay.actors.OnStage.theActorInTheSpotlight;
 
 import static org.hamcrest.core.IsEqual.equalTo;
-import static task.landingpage.LlenarCamposRegister.llenarCamposRegister;
-import static task.landingpage.NavegateToRegister.navegateToRegister;
+import static task.landingpage.register.LlenarCamposRegister.llenarCamposRegister;
+import static task.landingpage.register.NavegateToRegister.navegateToRegister;
 import static task.landingpage.OpenLandingPage.openLandingPage;
 
 public class CreateAccountSteps extends Setup{

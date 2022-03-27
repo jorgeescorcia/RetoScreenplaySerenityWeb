@@ -11,3 +11,8 @@ Feature: funcionalidad Login en http://automationpractice.com/
         Given que el usuario se encuentra en la pagina de inicio de sesion
         When el usuario ingresa un nombre de usuario y una contrasena validos
         Then el usuario debe tener acceso a la pagina de inicio
+
+    Scenario: inicio de sesion fallido
+        Given que el usuario quiere iniciar sesion
+        When el usuario ingresa un password incorrecto
+        Then el usuario espera ver un mensaje de autenticacion fallida

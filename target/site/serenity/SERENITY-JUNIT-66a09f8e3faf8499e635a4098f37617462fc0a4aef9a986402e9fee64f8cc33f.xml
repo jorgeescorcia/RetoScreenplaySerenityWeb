@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="funcionalidad Login en http://automationpractice.com/" skipped="0" tests="2" time="80.64" timestamp="2022-03-27 12:31:18"><testcase name="inicio de sesion exitoso"/><testcase name="inicio de sesion fallido"/></testsuite>

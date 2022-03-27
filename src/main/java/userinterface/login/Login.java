@@ -13,9 +13,13 @@ public class Login extends PageObject {
             .the("EmailLoginIn")
             .located(By.xpath("//input[@id='email']"));
 
-    public static final Target PASSWORD = Target
+    public static final Target PASSWORDLOGIN = Target
             .the("SingIn")
             .located(By.xpath("//input[@id='passwd']"));
+
+    public static final Target BTNLOGIN = Target
+            .the("BotonLogin")
+            .located(By.xpath("//body[1]/div[1]/div[2]/div[1]/div[3]/div[1]/div[1]/div[2]/form[1]/div[1]/p[2]/button[1]/span[1]"));
 
 
 

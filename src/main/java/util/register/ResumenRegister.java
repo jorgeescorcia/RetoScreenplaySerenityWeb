@@ -11,4 +11,7 @@ public class ResumenRegister {
     public static Question<String> MessagePassword(){
         return actor -> TextContent.of(MensajeBienvenida.MessagePasswordInvalid).viewedBy(actor).asString().trim();
     }
+    public static Question<String> MessageLoginFailed(){
+        return actor -> TextContent.of(MensajeBienvenida.MessageLoginFailed).viewedBy(actor).asString().trim();
+    }
 }
