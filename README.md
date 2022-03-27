@@ -34,6 +34,38 @@ Las funcionalidades a ser automatizadas serán seleccionadas utilizando los crit
 - No se verificará la visualización de los elementos en diseño responsive.
 - No se validarán en un sistema operativo diferente a Windows
 
+## **HU002 – Sing In**
+ Yo como usuario del sitio web
+ Quiero poder loguearme en la web
+ Para poder navegar por los diferentes apartados de la web
+ 
+ ### Criterios De Aceptación
+ - Verificar que el boton de Sing in se encuente visible en la web
+ - Verficar que al presionar el boton Sing In se despliegue los campos para loguarse
+ - Verificar que el boton "Sing In" se encuentre visible
+
+## Fuera de Alcance
+- Verificar opciones diferentes a las de  Sing In
+- Realizar pruebas en navegadore diferentes a Google Chrome y Mozilla Firefox
+- No se verificará la visualización de los elementos en diseño responsive.
+- No se validarán en un sistema operativo diferente a Windows
+
+## **HU003 – Contact Us**
+ Yo como usuario del sitio web
+ Quiero poder contactarme con el servicio al cliente
+ Para poder solicitar algunos servicios adicionales
+ 
+ ### Criterios De Aceptación
+ - Verificar que el boton de Contact us se encuente visible en la web
+ - Verficar que al presionar el Contact us  se desplieguen los campos enviar mensaje a servicio al cliente
+ - Verificar que el boton "Contact Us" se encuentre visible
+
+## Fuera de Alcance
+- Verificar opciones diferentes a las de  ContacUs
+- Realizar pruebas en navegadore diferentes a Google Chrome y Mozilla Firefox
+- No se verificará la visualización de los elementos en diseño responsive.
+- No se validarán en un sistema operativo diferente a Windows
+
 
 ## Roles Y Responsabilidades
 | Roles  | Responsabilidades |
@@ -58,4 +90,8 @@ Se iniciará realizando un Smoke Test para determinar que el portal cargue corre
 ## Requerimientos
 - Se debe contar con un ambiente de pruebas en el que se encuentre la versión más reciente de la aplicación
 - Contar con la ultima version de la web desplegada
+
+## Infraestructura  Y Datos
+- Disponibilidad en la conexión a la red.
+- Computador con sistema operativo Windows.
 
