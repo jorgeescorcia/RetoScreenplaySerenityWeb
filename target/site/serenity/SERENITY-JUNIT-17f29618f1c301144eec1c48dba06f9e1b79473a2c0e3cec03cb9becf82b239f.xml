@@ -1,1 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="funcionalidad creacion de cuenta en http://automationpractice.com/" skipped="0" tests="1" time="75.5" timestamp="2022-03-26 07:12:47"><testcase name="registro para una nueva cuenta"/></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="funcionalidad creacion de cuenta en http://automationpractice.com/" skipped="0" tests="2" time="312.32" timestamp="2022-03-26 11:01:28"><testcase name="registro para una nueva cuenta"/><testcase name="registro invalido"><failure message="&#10;Expected: &quot;passwd &quot;&#10;     but: was &quot;passwd&quot;" type="java.lang.AssertionError">
+Expected: "passwd "
+     but: was "passwd"</failure><system-err>
+Expected: "passwd "
+     but: was "passwd"&#13;
+stepsdefinition.CreateAccountSteps.el_usuario_no_podra_registrarse(CreateAccountSteps.java:94)&#13;
+✽.El usuario no podra registrarse(file:///E:/Sofka%20University/Introduccion%20a%20la%20Automatizacion%20de%20Pruebas%20de%20software/RetoScreenplaySerenityWeb/src/test/resources/features/Create_account.feature:11)&#13;
+</system-err></testcase></testsuite>

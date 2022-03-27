@@ -16,21 +16,9 @@ public class LlenarCamposRegister implements Task {
     private String City;
     private String State;
     private String PostalCode;
-    private String Country;
+
     private String MobilePhone;
     private String Alias;
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     public LlenarCamposRegister EmailAddress(String emailAddress) {
@@ -74,10 +62,7 @@ public class LlenarCamposRegister implements Task {
         return this;
     }
 
-    public LlenarCamposRegister Country(String country) {
-        Country = country;
-        return this;
-    }
+
 
     public LlenarCamposRegister MobilePhone(String mobilePhone) {
         MobilePhone = mobilePhone;
@@ -96,20 +81,41 @@ public class LlenarCamposRegister implements Task {
     @Override
     public <T extends Actor> void performAs(T actor) {
         actor.attemptsTo(
-                Enter.theValue("jorge@gamil.com").into(EMAIL_ADDRESS),
+                Scroll.to(EMAIL_ADDRESS),
+                Enter.theValue(EmailAddress).into(EMAIL_ADDRESS),
+
                 Click.on(BTN_CREATE_ACCOUNT),
-                Enter.theValue("Jorge Andres").into(FIRST_NAME),
-                Enter.theValue("Escorcia").into(LAST_NAME),
-                Enter.theValue("12345").into(PASSWORD),
-                Enter.theValue("Calle 50").into(ADDRESS),
-                Enter.theValue("Planeta Rica").into(CITY),
+
+                Scroll.to(FIRST_NAME),
+                Enter.theValue(FirstName).into(FIRST_NAME),
+
+                Scroll.to(LAST_NAME),
+                Enter.theValue(LastName).into(LAST_NAME),
+
+                Scroll.to(PASSWORD),
+                Enter.theValue(Password).into(PASSWORD),
+
+                Scroll.to(ADDRESS),
+                Enter.theValue(Address).into(ADDRESS),
+
+                Scroll.to(CITY),
+                Enter.theValue(City).into(CITY),
+
+                Scroll.to(STATE),
                 Click.on(STATE),
                 SelectFromOptions.byVisibleText("Alabama").from(STATE),
-                Enter.theValue("23385").into(POSTAL_CODE),
-                Click.on(COUNTRY),
+
+                Scroll.to(POSTAL_CODE),
+                Enter.theValue(PostalCode).into(POSTAL_CODE),
+
+                Scroll.to(COUNTRY),
                 SelectFromOptions.byVisibleText("United States").from(COUNTRY),
-                Enter.theValue("325585478").into(MOBILEPHONE),
-                Enter.theValue("Jorgeeee").into(ALIAS),
+
+                Scroll.to(MOBILEPHONE),
+                Enter.theValue(MobilePhone).into(MOBILEPHONE),
+
+                Scroll.to(ALIAS),
+                Enter.theValue(Alias).into(ALIAS),
                 Click.on(BOTON_REGISTER)
 
         );
