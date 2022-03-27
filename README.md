@@ -86,6 +86,16 @@ Se iniciará realizando un Smoke Test para determinar que el portal cargue corre
 |Gradle|Creación de la estructura de proyectos y uso e importación de librerías|
 |Chromedriver|Crea una instancia del navegador Chrome|
 
+## Planificación de ejecución de las pruebas
+Lista de funcionalidades a ser automatizadas por Sprint
+|Sprint número|	Funcionalidades|	Comentarios|
+|HU001	|Automatizar el modulo de registro||	
+|HU002	|	Automatizar el modulo de login||
+|HU003|Automatizar el modulo de contactUs||
+Las pruebas de automatización normalmente comenzarán en la segunda semana del Sprint (de 2 semanas).
+Es necesario que las funcionalidades a automatizar se desarrollen, implementen y prueben manualmente para que tengan un nivel determinado de estabilidad cuando comienzan las tareas de automatización
+
+
 
 ## Requerimientos
 - Se debe contar con un ambiente de pruebas en el que se encuentre la versión más reciente de la aplicación
@@ -94,4 +104,8 @@ Se iniciará realizando un Smoke Test para determinar que el portal cargue corre
 ## Infraestructura  Y Datos
 - Disponibilidad en la conexión a la red.
 - Computador con sistema operativo Windows.
+
+## Limitaciones
+Para este caso no se cuenta con ninguna limitación
+
 
