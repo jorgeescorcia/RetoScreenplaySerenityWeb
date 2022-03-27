@@ -90,7 +90,7 @@ Se iniciará realizando un Smoke Test para determinar que el portal cargue corre
 Lista de funcionalidades a ser automatizadas por Sprint
 
 |Sprint número|	Funcionalidades|	Comentarios|
-|----------|:-------------:|
+|----------|:-------------:|:-------------:|
 |HU001	|Automatizar el modulo de registro||	
 |HU002	|	Automatizar el modulo de login||
 |HU003|Automatizar el modulo de contactUs||
