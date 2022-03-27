@@ -1,4 +1,6 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
+"verificar funcionalidad servicio al cliente","Envio exitoso del mensaje","SUCCESS","2022-03-27T03:08:27.643-05:00[America/Bogota]","0.0","45.89"
+"verificar funcionalidad servicio al cliente","Envio erroneo del mensaje","SUCCESS","2022-03-27T03:09:15.18-05:00[America/Bogota]","0.0","46.6"
 "funcionalidad creacion de cuenta en http://automationpractice.com/","registro para una nueva cuenta","SUCCESS","2022-03-26T23:29:10.281-05:00[America/Bogota]","0.0","64.48"
 "funcionalidad creacion de cuenta en http://automationpractice.com/","registro invalido","SUCCESS","2022-03-26T23:30:15.659-05:00[America/Bogota]","0.0","37.27"
 "funcionalidad Login en http://automationpractice.com/","inicio de sesion exitoso","SUCCESS","2022-03-27T00:31:18.233-05:00[America/Bogota]","0.0","48.41"
